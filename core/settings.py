@@ -17,7 +17,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = env.list("ALLOWED_HOST")
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS")
 
 
 #Aplicaciones de django
@@ -32,7 +32,7 @@ DJANGO_APPS = [
 
 #Project apps
 PROJECT_APPS = [
-    
+    'apps.blog',
 ]
 
 #Thrid party apps
