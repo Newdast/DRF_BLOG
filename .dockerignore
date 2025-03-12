@@ -1,0 +1,29 @@
+# Directorios y archivos a ignorar  
+env/  
+venv/  
+__pycache__/  
+*.pyc  
+*.pyo  
+*.pyd  
+*.log  
+*.sqlite  
+*.db  
+*.json  
+*.lock  
+*.csv  
+*.xls  
+*.xlsx  
+*.pdf  
+*.doc  
+*.docx  
+
+# IDE específico  
+.idea/  
+.vscode/  
+ainless/  
+*.swp  
+*.swo  
+
+# Otros archivos  
+.DS_Store  
+Thumbs.db  
